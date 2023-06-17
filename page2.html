@@ -1,0 +1,66 @@
+<html>
+<head>
+	<title>Exercise2</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,500,0,0" />
+</head>
+<body>
+      <div class="navbar navbar-fixed-top container-fluid" id="navbar">
+            <div class="navbar-header">
+                  <button type="button" class="navbar-toggle navbar-default" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand">exercise2</a>
+            </div>
+            <a type="button" class="btn btn-back" href="page1.html">Back</a>
+      </div>
+      <div class="container">
+            <div class="form">
+                  <div class="header">
+                        <h3>Form</h3>
+                  </div>
+                  <form action="">
+                        <label for="nama">Nama</label><br>
+                        <input class="input" type="text" name="" placeholder="Nama Anda" id="nama"><br><br>
+                        <label for="tanggal">Tanggal Lahir</label><br>
+                        <input class="input" type="date" id="tanggal" name="tanggal"><br><br>
+                        <label for="angkatan">Pilih Angkatan</label> <br>
+                              <select class="input" name="angkatan" id="angkatan">
+                                    <option value="2020">2020</option>
+                                    <option value="2021">2021</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2023">2023</option>
+                              </select>
+                              <br><br>
+                        
+                        <label>Peminatan pada bidang</label><br>
+      
+                        <input type="radio" name="peminatan" id="programing" value="programing">
+                        <label for="programing">Programing</label><br>
+                        <input type="radio" name="peminatan" id="desain" value="desain">
+                        <label for="desain">Desain</label><br>
+                        <input type="radio" name="peminatan" id="jaringan" value="jaringan">
+                        <label for="jaringan">Jaringan</label><br>
+                        <input type="radio" name="peminatan" id="data" value="data">
+                        <label for="data">Data</label><br><br>
+                        <label for="">Alamat</label><br>
+                        <textarea name="alamat" placeholder="Tulis alamat disini" id="alamat" cols="30" rows="10"></textarea><br><br>
+                        
+                        <button type="submit" class="btn btn-send" onclick="kirimData()">Kirim</button>
+                  </form>
+            </div>
+      </div>
+
+      <script src="script.js"></script>
+</body>
+</html>
